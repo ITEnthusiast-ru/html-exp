@@ -1,0 +1,63 @@
+body {
+  background-color: #cacacb;
+}
+.hero-section {
+  background: url("./asssets//banners/banner4.png") no-repeat center
+    center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+.category-card {
+  transition: transform 0.3s;
+}
+.category-card:hover {
+  transform: scale(1.25);
+}
+.footer {
+  padding: 20px 0;
+  margin-top: 50px;
+}
+.intro-section {
+  background-color: #f8f9fa; /* Светлый фон */
+  padding: 60px 0;
+  border-radius: 20px;
+}
+.tools-section {
+  background-color: #343a40; /* Темный фон */
+  color: white;
+  padding: 60px 0;
+  border-radius: 20px;
+}
+.faq-section {
+  background-color: #ffffff; /* Белый фон */
+  padding: 60px 0;
+  border-radius: 20px;
+}
+.card {
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+.category-section {
+  background-color: #343a40;
+  padding: 60px 0;
+  color: white;
+  border-radius: 20px;
+}
+.last-artiles-section {
+  background-color: #ffffff; /* Белый фон */
+  padding: 60px 0;
+  border-radius: 20px;
+}
+.site-logo {
+  max-width: 300px;
+}
