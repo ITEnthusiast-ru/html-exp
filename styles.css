@@ -61,3 +61,43 @@ body {
 .site-logo {
   max-width: 300px;
 }
+.article-header {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+  text-align: center;
+}
+.article-content {
+  padding: 40px 0;
+}
+.article-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+.article-content h2 {
+  margin-top: 40px;
+  color: #0d6efd;
+}
+.article-content h3 {
+  margin-top: 30px;
+  color: #343a40;
+}
+.article-content table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+.article-content table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+.article-content th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+.article-content th {
+  background-color: #f8f9fa;
+}
