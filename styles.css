@@ -64,10 +64,13 @@ body {
 .article-header {
   background-color: #f8f9fa;
   padding: 60px 0;
-  text-align: center;
 }
 .article-content {
-  padding: 40px 0;
+  text-align: center;
+}
+.article-content p,
+li {
+  text-align: left;
 }
 .article-content img {
   max-width: 100%;
@@ -78,10 +81,12 @@ body {
 .article-content h2 {
   margin-top: 40px;
   color: #0d6efd;
+  text-align: left;
 }
 .article-content h3 {
   margin-top: 30px;
   color: #343a40;
+  text-align: left;
 }
 .article-content table {
   width: 100%;
@@ -100,4 +105,14 @@ td {
 }
 .article-content th {
   background-color: #f8f9fa;
+}
+.related-articles {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+.related-articles .card {
+  transition: transform 0.3s;
+}
+.related-articles .card:hover {
+  transform: scale(1.05);
 }
